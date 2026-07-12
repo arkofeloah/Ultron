@@ -13,3 +13,20 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Build outputs
+app/build/
+
+# Native build outputs
+.externalNativeBuild/
+.cxx/
+
+# Large AI model files
+*.gguf
+
+# APK files
+*.apk
+*.aab
+
+# Android Studio project files
+.idea/

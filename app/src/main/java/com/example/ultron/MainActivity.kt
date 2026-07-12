@@ -23,6 +23,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.File
+import java.io.FileOutputStream
 
 data class GenerationTrace(
     val genCount: Int = 0,
@@ -31,16 +32,23 @@ data class GenerationTrace(
 )
 
 class MainActivity : ComponentActivity() {
+    private val modelName = "qwen2.5-0.5b-instruct-q4_k_m.gguf"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
         Log.d("ULTRON", NativeBridge.helloFromNative())
         Log.d("ULTRON", NativeBridge.initializeLlamaBackend())
 
-        val dir = getExternalFilesDir(null)
-        val file = File(dir, "model.gguf")
-        val absolutePath = file.absolutePath
+        val modelsDir = File(filesDir, "models")
+        if (!modelsDir.exists()) modelsDir.mkdirs()
         
+        val modelFile = File(modelsDir, modelName)
+        if (!modelFile.exists()) {
+            copyAssetToInternalStorage(modelName, modelFile)
+        }
+        
+        val absolutePath = modelFile.absolutePath
         Log.d("ULTRON", "Target path: $absolutePath")
 
         val fileStatus = NativeBridge.checkModelFile(absolutePath)
@@ -63,6 +71,23 @@ class MainActivity : ComponentActivity() {
                     )
                 }
             }
+        }
+    }
+
+    private fun copyAssetToInternalStorage(assetName: String, targetFile: File) {
+        try {
+            assets.open("models/$assetName").use { inputStream ->
+                FileOutputStream(targetFile).use { outputStream ->
+                    val buffer = ByteArray(1024 * 8)
+                    var read: Int
+                    while (inputStream.read(buffer).also { read = it } != -1) {
+                        outputStream.write(buffer, 0, read)
+                    }
+                }
+            }
+            Log.d("ULTRON", "Model copied to internal storage: ${targetFile.absolutePath}")
+        } catch (e: Exception) {
+            Log.e("ULTRON", "Failed to copy asset model", e)
         }
     }
 }
