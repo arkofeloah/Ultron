@@ -1,80 +1,60 @@
-# Ultron Personal Use License
+ULTRON NON-COMMERCIAL LICENSE
+Version 1.0
+Copyright (c) 2026 Arkofeloah
 
-**Copyright © 2026 Arkofeloah. All Rights Reserved.**
+1. Grant of License
 
-## 1. Grant of Permission
+Subject to the terms of this License, the Licensor grants You a worldwide, non-exclusive, non-transferable, revocable, royalty-free license to use, reproduce, modify, and distribute the Software solely for personal, educational, research, and other non-commercial purposes.
 
-Permission is granted to any individual or organization to use, copy, modify, and distribute this software and its source code **solely for personal, educational, research, or other non-commercial purposes**, subject to the terms of this license.
+2. Commercial Use
 
-You may:
+You may not use the Software, in whole or in part, for any commercial purpose without the prior written permission of the Licensor.
 
-- Use the software.
-- Study the source code.
-- Modify the software.
-- Share the original or modified software for non-commercial purposes.
-- Contribute improvements back to the project.
+Commercial purposes include, but are not limited to:
 
----
+(a) selling or licensing the Software or any derivative work;
+(b) incorporating the Software into a commercial product or service;
+(c) using the Software in connection with a business or revenue-generating activity;
+(d) offering the Software as a paid or subscription-based service; or
+(e) distributing derivative works for commercial gain.
 
-## 2. Commercial Use
+3. Redistribution
 
-Commercial use of this software is **strictly prohibited** without prior written permission from the copyright holder.
+You may redistribute the Software or derivative works for non-commercial purposes provided that:
 
-Commercial use includes, but is not limited to:
+(a) this License is included with every copy;
+(b) all copyright notices are retained;
+(c) any modifications are clearly identified; and
+(d) appropriate attribution is given to the original Ultron project.
 
-- Selling this software or modified versions.
-- Including this software in any paid product or service.
-- Offering this software as part of a commercial business.
-- Using this software to generate direct or indirect commercial revenue.
-- Licensing, sublicensing, or redistributing this software for commercial purposes.
+4. Ownership
 
-To obtain a commercial license, contact the copyright holder.
+Title, ownership, and all intellectual property rights in the Software remain exclusively with the Licensor. This License grants only the rights expressly stated herein and does not transfer ownership of the Software.
 
----
+5. Trademarks
 
-## 3. Redistribution and Modifications
+Nothing in this License grants permission to use the Licensor's trademarks, trade names, logos, or branding without prior written permission.
 
-You may redistribute the original or modified versions of this software for non-commercial purposes provided that you:
+6. Third-Party Software
 
-- Include this license with every copy.
-- Clearly indicate any modifications that were made.
-- Credit the original Ultron project and the original copyright holder.
-- Do not imply that the original author endorses your modifications.
+The Software may include third-party components that are licensed under separate terms. Such components remain subject to their respective licenses.
 
----
+7. Disclaimer of Warranty
 
-## 4. Ownership
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
 
-The Ultron project, including its original source code, design, branding, name, logo, documentation, and other intellectual property, remains the exclusive property of the copyright holder.
+8. Limitation of Liability
 
-Nothing in this license transfers ownership of the software or its intellectual property.
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF OR INABILITY TO USE THE SOFTWARE.
 
----
+9. Termination
 
-## 5. Trademarks
+Any breach of this License shall automatically terminate the rights granted under this License. Upon termination, You must cease all use and distribution of the Software.
 
-This license does not grant permission to use the name **Ultron**, its logo, branding, trademarks, or associated artwork without prior written permission.
+10. Governing Law
 
----
+This License shall be governed by and construed in accordance with the laws applicable in the jurisdiction of the Licensor.
 
-## 6. Third-Party Components
+11. Entire Agreement
 
-This project contains third-party software that is licensed under its own respective licenses.
-
-Those licenses apply only to their respective components and remain unaffected by this license.
-
----
-
-## 7. Disclaimer of Warranty
-
-THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
-
-IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
-
----
-
-## 8. Acceptance
-
-By using, copying, modifying, or distributing this software, you agree to the terms of this license.
-
-Any rights not expressly granted by this license are reserved by the copyright holder.
+This License constitutes the entire agreement between the Licensor and You concerning the Software and supersedes all prior agreements relating to its subject matter.
