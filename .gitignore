@@ -21,7 +21,6 @@ app/build/
 .externalNativeBuild/
 .cxx/
 
-# Large AI model files
 *.gguf
 
 # APK files
