@@ -1,62 +1,80 @@
 # Ultron Personal Use License
 
-Copyright (c) 2026 Arkofeloah
+**Copyright © 2026 Arkofeloah. All Rights Reserved.**
 
-## 1. Permission
+## 1. Grant of Permission
 
-Permission is hereby granted to use, copy, modify, and distribute this software and its source code for personal, educational, research, and non-commercial purposes.
+Permission is granted to any individual or organization to use, copy, modify, and distribute this software and its source code **solely for personal, educational, research, or other non-commercial purposes**, subject to the terms of this license.
 
-Users may:
+You may:
 
-* Run the software.
-* Study the source code.
-* Modify the software for personal use.
-* Share modified versions for non-commercial purposes.
+- Use the software.
+- Study the source code.
+- Modify the software.
+- Share the original or modified software for non-commercial purposes.
+- Contribute improvements back to the project.
 
-## 2. Commercial Use Restriction
+---
 
-Commercial use of this software is not permitted without prior written permission from the copyright holder.
+## 2. Commercial Use
+
+Commercial use of this software is **strictly prohibited** without prior written permission from the copyright holder.
 
 Commercial use includes, but is not limited to:
 
-* Selling the software or modified versions.
-* Including the software in a paid product or service.
-* Using the software to provide paid services.
-* Distributing the software as part of a commercial product.
-* Using the software to generate commercial revenue.
+- Selling this software or modified versions.
+- Including this software in any paid product or service.
+- Offering this software as part of a commercial business.
+- Using this software to generate direct or indirect commercial revenue.
+- Licensing, sublicensing, or redistributing this software for commercial purposes.
 
-For commercial licensing inquiries, contact the copyright holder.
+To obtain a commercial license, contact the copyright holder.
 
-## 3. Modified Versions
+---
 
-You may create modified versions of this software for personal or non-commercial purposes.
+## 3. Redistribution and Modifications
 
-If you distribute a modified version, you must:
+You may redistribute the original or modified versions of this software for non-commercial purposes provided that you:
 
-* Keep this license included.
-* Provide attribution to the original Ultron project.
-* Clearly state that modifications were made.
+- Include this license with every copy.
+- Clearly indicate any modifications that were made.
+- Credit the original Ultron project and the original copyright holder.
+- Do not imply that the original author endorses your modifications.
+
+---
 
 ## 4. Ownership
 
-The original Ultron source code, branding, name, and associated intellectual property remain the property of the copyright holder.
+The Ultron project, including its original source code, design, branding, name, logo, documentation, and other intellectual property, remains the exclusive property of the copyright holder.
 
-This license does not grant permission to use the Ultron name, logo, branding, or trademarks without approval.
+Nothing in this license transfers ownership of the software or its intellectual property.
 
-## 5. No Warranty
+---
 
-This software is provided "AS IS", without warranty of any kind, express or implied.
+## 5. Trademarks
 
-The copyright holder shall not be liable for any damages arising from the use of this software.
+This license does not grant permission to use the name **Ultron**, its logo, branding, trademarks, or associated artwork without prior written permission.
+
+---
 
 ## 6. Third-Party Components
 
-This software may include third-party components that are licensed separately under their own licenses.
+This project contains third-party software that is licensed under its own respective licenses.
 
-Those licenses remain applicable to their respective components.
+Those licenses apply only to their respective components and remain unaffected by this license.
 
-## 7. Acceptance
+---
 
-By using, modifying, or distributing this software, you agree to the terms of this license.
+## 7. Disclaimer of Warranty
 
-Any use not expressly permitted by this license requires written permission from the copyright holder.
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
+
+---
+
+## 8. Acceptance
+
+By using, copying, modifying, or distributing this software, you agree to the terms of this license.
+
+Any rights not expressly granted by this license are reserved by the copyright holder.
